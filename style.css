@@ -1,5 +1,6 @@
 body{
     font-family: 'Inter', sans-serif;
+    
 }
 
 .dark{
@@ -10,7 +11,7 @@ body{
 .top-layer{
     background-color: hsl(232, 19%, 15%);
     width: 100%;
-    height: 30%;
+    height: 35%;
     position: absolute;
     z-index: -1;
 }
@@ -19,6 +20,7 @@ body{
 
 .container-fluid{
     padding: 2rem 7rem 3rem;
+    
 }
 
 .switch{
@@ -82,7 +84,8 @@ body{
 }
 
 .red-time{
-    color: hsl(356, 69%, 56%);
+    color: hsl(356, 69%, 56%)!important;
+    
 }
 
 .icons{
@@ -107,23 +110,20 @@ body{
     color: hsl(228, 34%, 66%);
     width: 7rem;
     margin-bottom: 1.8rem;
-    /* position: relative;
-    top: .45rem; */
+    
 }
 .bottom-left{
     color: white;
     font-weight: 700;
     width: 7rem;
     margin-bottom: 0rem;
-    /* position: relative;
-    top: 1rem; */
+   
 }
 
 .top-right{
     position: relative;
     margin-top: .1rem;
-    /* left: 13.5rem;
-    bottom: 5rem; */
+    
 }
 
 .bottom-right{
@@ -131,10 +131,8 @@ body{
     font-weight: 700;
     font-size: .7rem;
     margin-top: 2.5rem;
-    /* position: relative;
-    left: 12rem;
-    bottom: 3rem; */
 }
+
 
 .left-side{
     text-align: left;
@@ -144,6 +142,12 @@ body{
     margin-left: .3rem;
     display: inline-block;
     vertical-align: text-top;
+}
+.first-two{
+    margin-right: 5rem;
+}
+.last-two{
+    margin-right: 5rem;
 }
 
 .right-side{
@@ -201,7 +205,8 @@ body{
         float: right;
     }
     .container-fluid{
-        padding: 2rem 2rem 3rem;
+        padding: 2rem 8% 2rem;
+        margin: 0 auto;
     }
     .title{
         display: block;
@@ -224,6 +229,10 @@ body{
     .attribution {
         width: 18.5rem;
     }
+    /* .center-all{
+        position: absolute;
+        
+    } */
 }
 
 
@@ -231,10 +240,18 @@ body{
 .attribution {
     font-size: 11px;
     text-align: center;
-    padding: 0rem 7rem;
+    padding: 2rem 7rem 0;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
+
+.center-all{
+    position: absolute;
+}
+
 

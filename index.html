@@ -17,177 +17,182 @@
 </head>
 
 <body class="dark">
+  <!-- design -->
   <div class="top-layer"></div>
 
+  <!-- putting the whole elements in one div -->
+  <div class="center-all">
 
-  <div class="container-fluid">
-    <div class="title">
-      <h1 class="headers">Social Media Dashboard</h1>
-      <p class="total-followers">Total Followers: 23,004</p>
+    <div class="container-fluid">
+      <!-- first part in the web site 'TEXT' -->
+      <div class="title">
+        <h1 class="headers">Social Media Dashboard</h1>
+        <p class="total-followers">Total Followers: 23,004</p>
+      </div>
+      <div class="breaker"></div>
+      <div class="form-check form-switch switch">
+        <label class="form-check-label" for="flexSwitchCheckChecked">Dark Mode</label>
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+      </div>
+      <!-- Using Bootstrap grid system -->
+      <div class="row">
+        <!-- TOP BOXES 1 -->
+        <div class="head-boxes col-md-3">
+          <p class="mention"><img class="icons" src="images/icon-facebook.svg" alt="">@nathanf</p>
+          <h2 class="number">1987</h2>
+          <p class="followers">Followers</p>
+          <p class="time"><img class="icons" src="images/icon-up.svg" alt="">12 Today</p>
+        </div>
+
+
+        <!-- TOP BOXES 2 -->
+        <div class="head-boxes col-md-3">
+          <p class="mention"><img class="icons" src="images/icon-twitter.svg" alt=""> @nathanf</p>
+          <h2 class="number">1044</h2>
+          <p class="followers">Followers</p>
+          <p class="time"><img class="icons" src="images/icon-up.svg" alt="">99 Today</p>
+        </div>
+
+
+        <!-- TOP BOXES 3 -->
+        <div class="head-boxes col-md-3">
+          <p class="mention"><img class="icons" src="images/icon-instagram.svg" alt=""> @realnathanf</p>
+          <h2 class="number">11k</h2>
+          <p class="followers">Followers</p>
+          <p class="time"><img class="icons" src="images/icon-up.svg" alt="">1099 Today</p>
+        </div>
+
+
+        <!-- TOP BOXES 4 -->
+        <div class="head-boxes col-md-3">
+          <p class="mention"><img class="icons" src="images/icon-youtube.svg" alt=""> Nathan F.</p>
+          <h2 class="number">8239</h2>
+          <p class="followers">Subscribers</p>
+          <p class="time red-time"><img class="icons" src="images/icon-down.svg" alt="">144 Today</p>
+        </div>
+
+      </div> <!-- END OF THE ROW -->
+      <!-- HEADER 2 -->
+      <h1 class="headers" id="second-h">Overview - Today</h1>
+
+      <!-- BOTTOM BOXES -->
+      <div class="row ">
+        <!-- BOTTOM BOXES 1 -->
+        <div class="bottom-boxes col-md-3">
+          <section class="left-side first-two">
+            <p class="top-left">Page Views</p>
+            <h2 class="bottom-left">87</h2>
+          </section>
+          <section class="right-side ">
+            <img class="top-right" src="images/icon-facebook.svg" alt="">
+            <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 3%</p>
+          </section>
+        </div>
+
+        <!-- BOTTOM BOXES 2 -->
+
+        <div class="bottom-boxes col-md-3">
+          <section class="left-side first-two">
+            <p class="top-left">Likes</p>
+            <h2 class="bottom-left">52</h2>
+          </section>
+          <section class="right-side ">
+            <img class="top-right" src="images/icon-facebook.svg" alt="">
+            <p class="bottom-right red-time"><img class="icons" src="images/icon-down.svg" alt=""> 2%</p>
+          </section>
+        </div>
+
+        <!-- BOTTOM BOXES 3 -->
+
+        <div class="bottom-boxes col-md-3">
+          <section class="left-side">
+            <p class="top-left">Likes</p>
+            <h2 class="bottom-left">5462</h2>
+          </section>
+          <section class="right-side">
+            <img class="top-right" src="images/icon-instagram.svg" alt="">
+            <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 2257%</p>
+          </section>
+        </div>
+
+        <!-- BOTTOM BOXES 4 -->
+
+        <div class="bottom-boxes col-md-3">
+          <section class="left-side">
+            <p class="top-left">Profile Views</p>
+            <h2 class="bottom-left">52K</h2>
+          </section>
+          <section class="right-side">
+            <img class="top-right" src="images/icon-instagram.svg" alt="">
+            <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 1375%</p>
+          </section>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+        <!-- BOTTOM BOXES 5 -->
+        <div class="bottom-boxes col-md-3">
+          <section class="left-side">
+            <p class="top-left">Retweets</p>
+            <h2 class="bottom-left">117</h2>
+          </section>
+          <section class="right-side">
+            <img class="top-right" src="images/icon-twitter.svg" alt="">
+            <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 303%</p>
+          </section>
+        </div>
+
+        <!-- BOTTOM BOXES 6 -->
+
+        <div class="bottom-boxes  col-md-3">
+          <section class="left-side">
+            <p class="top-left">Likes</p>
+            <h2 class="bottom-left">507</h2>
+          </section>
+          <section class="right-side">
+            <img class="top-right" src="images/icon-twitter.svg" alt="">
+            <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 553%</p>
+          </section>
+        </div>
+
+        <!-- BOTTOM BOXES 7 -->
+
+        <div class="bottom-boxes  col-md-3">
+          <section class="left-side last-two">
+            <p class="top-left">Likes</p>
+            <h2 class="bottom-left">87</h2>
+          </section>
+          <section class="right-side">
+            <img class="top-right" src="images/icon-youtube.svg" alt="">
+            <p class="bottom-right red-time"><img class="icons" src="images/icon-down.svg" alt=""> 19%</p>
+          </section>
+        </div>
+
+        <!-- BOTTOM BOXES 8 -->
+
+        <div class="bottom-boxes  col-md-3">
+          <section class="left-side last-two">
+            <p class="top-left">Total Views</p>
+            <h2 class="bottom-left">1407</h2>
+          </section>
+          <section class="right-side">
+            <img class="top-right" src="images/icon-youtube.svg" alt="">
+            <p class="bottom-right red-time"><img class="icons" src="images/icon-down.svg" alt=""> 12%</p>
+          </section>
+        </div>
+
+      </div>
+      <!-- Footer of my name -->
+      <footer class="attribution">
+        <a href="#">&copy; M4Hosam</a>.
+      </footer>
+
     </div>
-    <div class="breaker"></div>
-    <div class="form-check form-switch switch">
-      <label class="form-check-label" for="flexSwitchCheckChecked">Dark Mode</label>
-      <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-    </div>
-
-    <div class="row">
-
-      <div class="head-boxes col-md-3">
-        <p class="mention"><img class="icons" src="images/icon-facebook.svg" alt="">@nathanf</p>
-        <h2 class="number">1987</h2>
-        <p class="followers">Followers</p>
-        <p class="time"><img class="icons" src="images/icon-up.svg" alt="">12 Today</p>
-      </div>
 
 
 
-      <div class="head-boxes col-md-3">
-        <p class="mention"><img class="icons" src="images/icon-twitter.svg" alt=""> @nathanf</p>
-        <h2 class="number">1044</h2>
-        <p class="followers">Followers</p>
-        <p class="time"><img class="icons" src="images/icon-up.svg" alt="">99 Today</p>
-      </div>
-
-
-
-      <div class="head-boxes col-md-3">
-        <p class="mention"><img class="icons" src="images/icon-instagram.svg" alt=""> @realnathanf</p>
-        <h2 class="number">11k</h2>
-        <p class="followers">Followers</p>
-        <p class="time"><img class="icons" src="images/icon-up.svg" alt="">1099 Today</p>
-      </div>
-
-
-
-      <div class="head-boxes col-md-3">
-        <p class="mention"><img class="icons" src="images/icon-youtube.svg" alt=""> Nathan F.</p>
-        <h2 class="number">8239</h2>
-        <p class="followers">Subscribers</p>
-        <p class="time red-time"><img class="icons" src="images/icon-down.svg" alt="">144 Today</p>
-      </div>
-
-    </div>
-
-    <h1 class="headers" id="second-h">Overview - Today</h1>
-
-
-    <div class="row ">
-
-      <div class="bottom-boxes col-md-3">
-        <section class="left-side">
-          <p class="top-left">Page Views</p>
-          <h2 class="bottom-left">87</h2>
-        </section>
-        <section class="right-side">
-          <img class="top-right" src="images/icon-facebook.svg" alt="">
-          <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 3%</p>
-        </section>
-      </div>
-
-
-
-      <div class="bottom-boxes col-md-3">
-        <section class="left-side">
-          <p class="top-left">Likes</p>
-          <h2 class="bottom-left">52</h2>
-        </section>
-        <section class="right-side">
-          <img class="top-right" src="images/icon-facebook.svg" alt="">
-          <p class="bottom-right"><img class="icons" src="images/icon-down.svg" alt=""> 2%</p>
-        </section>
-      </div>
-
-
-
-      <div class="bottom-boxes col-md-3">
-        <section class="left-side">
-          <p class="top-left">Likes</p>
-          <h2 class="bottom-left">5462</h2>
-        </section>
-        <section class="right-side">
-          <img class="top-right" src="images/icon-instagram.svg" alt="">
-          <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 2257%</p>
-        </section>
-      </div>
-
-
-
-      <div class="bottom-boxes col-md-3">
-        <section class="left-side">
-          <p class="top-left">Profile Views</p>
-          <h2 class="bottom-left">52K</h2>
-        </section>
-        <section class="right-side">
-          <img class="top-right" src="images/icon-instagram.svg" alt="">
-          <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 1375%</p>
-        </section>
-      </div>
-
-    </div>
-
-
-    <div class="row">
-
-      <div class="bottom-boxes col-md-3">
-        <section class="left-side">
-          <p class="top-left">Retweets</p>
-          <h2 class="bottom-left">117</h2>
-        </section>
-        <section class="right-side">
-          <img class="top-right" src="images/icon-twitter.svg" alt="">
-          <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 303%</p>
-        </section>
-      </div>
-
-
-
-      <div class="bottom-boxes  col-md-3">
-        <section class="left-side">
-          <p class="top-left">Likes</p>
-          <h2 class="bottom-left">507</h2>
-        </section>
-        <section class="right-side">
-          <img class="top-right" src="images/icon-twitter.svg" alt="">
-          <p class="bottom-right"><img class="icons" src="images/icon-up.svg" alt=""> 553%</p>
-        </section>
-      </div>
-
-
-
-      <div class="bottom-boxes  col-md-3">
-        <section class="left-side">
-          <p class="top-left">Likes</p>
-          <h2 class="bottom-left">87</h2>
-        </section>
-        <section class="right-side">
-          <img class="top-right" src="images/icon-youtube.svg" alt="">
-          <p class="bottom-right"><img class="icons" src="images/icon-down.svg" alt=""> 19%</p>
-        </section>
-      </div>
-
-
-
-      <div class="bottom-boxes  col-md-3">
-        <section class="left-side">
-          <p class="top-left">Total Views</p>
-          <h2 class="bottom-left">1407</h2>
-        </section>
-        <section class="right-side">
-          <img class="top-right" src="images/icon-youtube.svg" alt="">
-          <p class="bottom-right"><img class="icons" src="images/icon-down.svg" alt=""> 12%</p>
-        </section>
-      </div>
-
-
-    </div>
-
-  </div>
-
-
-  <div class="attribution">
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    <a href="#">M4Hosam</a>.
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
